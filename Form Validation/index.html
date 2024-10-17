@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Side Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="#">
+            <h1>Contact US</h1>
+            <div class="SucesssMeasge"></div>
+            <div class="input-control">
+                <label for="fullname">Full Name</label>
+                <input id="fullname" name="fullname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="phone">Phone</label>
+                <input id="phone"name="phone" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="measge">Message</label>
+                <textarea id="measge" cols="2" rows="6"></textarea>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+</body>
+<script src="app.js"></script>
+</html>
